@@ -6,8 +6,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
+* 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
@@ -22,34 +21,21 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
+- Loans with higher amount are less in number and are more prone to be charged off, we should set a threshold
+for our loan values and install some more complex processes to approve such huge loans
+- Longer termed loans are due to higher loan amount and are more prone to getting defaulted
+- Charged off loans on average have higher interest rates compared to paid ones and hence we should continue
+to use the algorithm that is rightly assigning a higher interest rate to risky loans
+- Also as observed, if the purpose of the loan is to set up small business, the recommendation here is to
+investigate into the business plan a bit and estimate profitability of the borrower’s business idea, because we
+see them contributing to 8.5% of charged off loans
+- Customers with Annual income below $40,000 are more likely to default, the recommendation is to check such
+customers even more thoroughly
+- Verified customers are more likely to default which is counter intuitive, one reason being their DTI is high
+compared to those who don’t default on the loans, also maybe the 3rd party whose verifying these customers
+need to reinvestigate their process as to why they are approving such faulty customers
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- Python 3
